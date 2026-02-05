@@ -130,7 +130,7 @@ export default function App() {
                                 value={inputName}
                                 onChange={(e) => setInputName(e.target.value)}
                                 className="w-full border border-gray-200 rounded-md px-3 py-2 outline-green-500 placeholder-gray-400"
-                                placeholder="Your name (e.g. John Doe)"
+                                placeholder="Your name (e.g. Harry Potter)"
                             />
                             <button
                                 type="submit"
