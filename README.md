@@ -1,1 +1,19 @@
-This real-time chat room application uses Socket.IO to establish a persistent WebSocket connection between the client and server. When a user joins a chat room, the server maintains the connection and listens for events such as sending and receiving messages. Messages are instantly broadcast to all connected users in the same room without page refresh. The frontend built in React displays live updates, while the Node.js backend handles real-time communication and user sessions, ensuring fast and seamless interaction.
+# Chat-Room 💬
+
+A **real-time chat room application** built with **React (frontend)** and **Node.js + Socket.IO (backend)**. This project allows users to join a chat room and send/receive messages instantly — without needing to refresh the page.
+
+🚀 Live Demo: [chat-room-lac.vercel.app](https://chat-room-lac.vercel.app) :contentReference[oaicite:2]{index=2}
+
+---
+
+## 🧠 Features
+
+✔ Real-time messaging using WebSockets  
+✔ Fast, seamless communication with Socket.IO  
+✔ React frontend with live updates  
+✔ Node.js backend managing user connections and message broadcasts  
+✔ Easy to extend with rooms, authentication & more
+
+---
+
+
